@@ -1,0 +1,17 @@
+services:
+  db:
+    container_name: "lazy-db"
+    image: postgres:16.3-alpine3.20
+    restart: always
+    environment:
+      - POSTGRES_USER=lazy
+      - POSTGRES_PASSWORD=lazy
+      - POSTGRES_DB=todo
+    ports:
+      - '5432:5432'
+    volumes:
+      - db:/var/lib/postgresql/data
+
+volumes:
+  db:
+    driver: local
