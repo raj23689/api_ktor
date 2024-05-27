@@ -1,7 +1,7 @@
-package com.example.dao
+package dev.com.lazy.api.dao
 
-import com.example.models.Task
-import com.example.models.Tasks
+import dev.com.lazy.api.models.Task
+import dev.com.lazy.api.models.Tasks
 import org.jetbrains.exposed.sql.ResultRow
 import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
 import org.jetbrains.exposed.sql.insert

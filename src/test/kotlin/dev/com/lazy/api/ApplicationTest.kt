@@ -1,4 +1,4 @@
-package com.example
+package dev.com.lazy.api
 
 
 import io.ktor.client.request.*

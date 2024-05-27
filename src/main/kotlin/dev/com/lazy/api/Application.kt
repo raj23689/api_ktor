@@ -1,8 +1,8 @@
-package com.example
+package dev.com.lazy.api
 
-import com.example.dao.DbFactory
-import com.example.dao.TaskDao
-import com.example.routes.task
+import dev.com.lazy.api.dao.DbFactory
+import dev.com.lazy.api.dao.TaskDao
+import dev.com.lazy.api.routes.task
 import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*

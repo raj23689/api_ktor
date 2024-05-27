@@ -1,6 +1,6 @@
-package com.example.dao
+package dev.com.lazy.api.dao
 
-import com.example.models.Tasks
+import dev.com.lazy.api.models.Tasks
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
 import io.ktor.server.application.*

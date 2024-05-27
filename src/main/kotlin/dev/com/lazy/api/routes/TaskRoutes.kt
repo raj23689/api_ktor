@@ -1,7 +1,7 @@
-package com.example.routes
+package dev.com.lazy.api.routes
 
-import com.example.dao.TaskDao
-import com.example.models.TaskDto
+import dev.com.lazy.api.dao.TaskDao
+import dev.com.lazy.api.models.TaskDto
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*
